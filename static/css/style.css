@@ -1,4 +1,10 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+header {
+  font-size: 30px;
+  font-weight: 600;
 }
 
+form input {
+    height: 30px;
+}

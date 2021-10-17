@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block body %}
-    <h1> ToDo List App</h1>
+    <header> ToDo List App</header>
     {% if tasks | length < 1 %}
     <p>There are no tasks. Create one below!</p>
     {% else %}
@@ -28,8 +28,8 @@
     {% endif %}
 
     <form action="/" method="POST">
-        <input type="text" name="content" id="content">
-        <input type="submit" value="Add Task">
+        <input type="text" name="content" id="content" placeholder="Add new task">
+        <input type="submit" value="Add" id="button">
     </form>
 
 {% endblock %}
